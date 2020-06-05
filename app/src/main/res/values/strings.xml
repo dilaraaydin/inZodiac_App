@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">inZodiac</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fragment_home">Burçlar</string>
+    <string name="burc_ogrenFragment">Burcunu Öğren</string>
+    <string name="fragment_gezegen">Gezegenler ve Yıldızlar</string>
+    <string name="fragment_evler">Evler</string>
+    <string name="hakkimdaFragment">Uygulama Hakkında</string>
+    <string name="inZodiac">inZodiac</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

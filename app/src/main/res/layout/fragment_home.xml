@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_pink_light"
+    tools:context=".BurclarFragment">
+
+    <ImageButton
+        android:id="@+id/buttonPisces"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:src="@drawable/ic_pisces"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonVirgo"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAquarius" />
+
+    <ImageButton
+        android:id="@+id/buttonAries"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:hapticFeedbackEnabled="true"
+        android:src="@drawable/ic_aries"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTaurus"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLibra"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonGemini"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:src="@drawable/ic_gemini"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCancer"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSagittarius"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTaurus" />
+
+    <ImageButton
+        android:id="@+id/buttonCapricorn"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:src="@drawable/ic_capricorn"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAquarius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonCancer"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSagittarius" />
+
+    <ImageButton
+        android:id="@+id/buttonLibra"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:src="@drawable/ic_libra"
+        app:layout_constraintBottom_toTopOf="@+id/buttonScorpio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonAries"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonLeo"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:src="@drawable/ic_leo"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVirgo"
+        app:layout_constraintEnd_toStartOf="@+id/buttonAquarius"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCancer" />
+
+    <ImageButton
+        android:id="@+id/buttonTaurus"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:src="@drawable/ic_taurus"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGemini"
+        app:layout_constraintEnd_toStartOf="@+id/buttonScorpio"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAries" />
+
+    <ImageButton
+        android:id="@+id/buttonVirgo"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:src="@drawable/ic_virgo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPisces"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLeo" />
+
+    <ImageButton
+        android:id="@+id/buttonCancer"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:src="@drawable/ic_cancer"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLeo"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCapricorn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGemini" />
+
+    <ImageButton
+        android:id="@+id/buttonSagittarius"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:src="@drawable/ic_sagittarius"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCapricorn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/buttonGemini"
+        app:layout_constraintTop_toBottomOf="@+id/buttonScorpio" />
+
+    <ImageButton
+        android:id="@+id/buttonAquarius"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:src="@drawable/ic_aquarius"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPisces"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonLeo"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCapricorn" />
+
+    <ImageButton
+        android:id="@+id/buttonScorpio"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:src="@drawable/ic_scorpio"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSagittarius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonTaurus"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLibra" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KOÇ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonAries"
+        app:layout_constraintEnd_toStartOf="@+id/buttonAries"
+        app:layout_constraintTop_toTopOf="@+id/buttonAries" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASLAN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonLeo"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLeo"
+        app:layout_constraintTop_toTopOf="@+id/buttonLeo" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOĞA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonTaurus"
+        app:layout_constraintEnd_toStartOf="@+id/buttonTaurus"
+        app:layout_constraintTop_toTopOf="@+id/buttonTaurus" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAŞAK"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonVirgo"
+        app:layout_constraintEnd_toStartOf="@+id/buttonVirgo"
+        app:layout_constraintTop_toTopOf="@+id/buttonVirgo"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KOVA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonAquarius"
+        app:layout_constraintStart_toEndOf="@+id/buttonAquarius"
+        app:layout_constraintTop_toTopOf="@+id/buttonAquarius" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OĞLAK"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonCapricorn"
+        app:layout_constraintStart_toEndOf="@+id/buttonCapricorn"
+        app:layout_constraintTop_toTopOf="@+id/buttonCapricorn" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TERAZİ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonLibra"
+        app:layout_constraintStart_toEndOf="@+id/buttonLibra"
+        app:layout_constraintTop_toTopOf="@+id/buttonLibra" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YAY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonSagittarius"
+        app:layout_constraintStart_toEndOf="@+id/buttonSagittarius"
+        app:layout_constraintTop_toTopOf="@+id/buttonSagittarius" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AKREP"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonScorpio"
+        app:layout_constraintStart_toEndOf="@+id/buttonScorpio"
+        app:layout_constraintTop_toTopOf="@+id/buttonScorpio"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:text="BALIK"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonPisces"
+        app:layout_constraintStart_toEndOf="@+id/buttonPisces"
+        app:layout_constraintTop_toTopOf="@+id/buttonPisces" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YENGEÇ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonCancer"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCancer"
+        app:layout_constraintTop_toTopOf="@+id/buttonCancer" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İKİZLER"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonGemini"
+        app:layout_constraintEnd_toStartOf="@+id/buttonGemini"
+        app:layout_constraintTop_toTopOf="@+id/buttonGemini" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

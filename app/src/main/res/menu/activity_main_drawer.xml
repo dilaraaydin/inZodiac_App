@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_burclar"
+            android:icon="@drawable/ic_pie_chart_outlined_black_24dp"
+            android:title="Burçlar" />
+        <item
+            android:id="@+id/burc_ogrenFragment"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Burcunu Öğren" />
+        <item
+            android:id="@+id/gezegenFragment"
+            android:icon="@drawable/ic_lens_black_24dp"
+            android:title="Gezegenler ve Yıldızlar" />
+        <item
+            android:id="@+id/evlerFragment"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Evler" />
+        <item
+            android:id="@+id/hakkimdaFragment"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Uygulama Hakkında" />
+    </group>
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragment_burclar">
+
+    <fragment
+        android:id="@+id/fragment_burclar"
+        android:name="com.dilara.inzodiacnew.BurclarFragment"
+        android:label="Burçlar"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/evlerFragment"
+        android:name="com.dilara.inzodiacnew.EvlerFragment"
+        android:label="Evler"
+        tools:layout="@layout/fragment_evler" />
+    <fragment
+        android:id="@+id/gezegenFragment"
+        android:name="com.dilara.inzodiacnew.GezegenFragment"
+        android:label="Gezegenler"
+        tools:layout="@layout/fragment_gezegen" />
+    <fragment
+        android:id="@+id/burc_ogrenFragment"
+        android:name="com.dilara.inzodiacnew.BurcOgrenFragment"
+        android:label="Burcunu Öğren"
+        tools:layout="@layout/burc_ogren_fragment" />
+    <fragment
+        android:id="@+id/hakkimdaFragment"
+        android:name="com.dilara.inzodiacnew.HakkimdaFragment"
+        android:label="Uygulama Hakkında"
+        tools:layout="@layout/hakkimda_fragment" />
+
+</navigation>

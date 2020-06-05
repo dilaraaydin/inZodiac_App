@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9225C47"
+    tools:context=".GezegenFragment">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GÜNEŞ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CFEAFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSun"
+        app:layout_constraintStart_toStartOf="@+id/buttonSun"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSun" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CFEAFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonMoon"
+        app:layout_constraintStart_toStartOf="@+id/buttonMoon"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMoon" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MERKÜR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CFEAFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonMercur"
+        app:layout_constraintStart_toStartOf="@+id/buttonMercur"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMercur" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VENÜS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CFEAFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonVenus"
+        app:layout_constraintStart_toStartOf="@+id/buttonVenus"
+        app:layout_constraintTop_toBottomOf="@+id/buttonVenus" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CFEAFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonMars"
+        app:layout_constraintStart_toStartOf="@+id/buttonMars"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMars" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JÜPİTER"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CFEAFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonJupiter"
+        app:layout_constraintStart_toStartOf="@+id/buttonJupiter"
+        app:layout_constraintTop_toBottomOf="@+id/buttonJupiter" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SATÜRN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CFEAFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSaturn"
+        app:layout_constraintStart_toStartOf="@+id/buttonSaturn"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSaturn" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URANÜS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CFEAFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonUranus"
+        app:layout_constraintStart_toStartOf="@+id/buttonUranus"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUranus" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEPTÜN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CFEAFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonNeptun"
+        app:layout_constraintStart_toStartOf="@+id/buttonNeptun"
+        app:layout_constraintTop_toBottomOf="@+id/buttonNeptun" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLÜTON"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CFEAFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonPluton"
+        app:layout_constraintStart_toStartOf="@+id/buttonPluton"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPluton" />
+
+    <ImageButton
+        android:id="@+id/buttonJupiter"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#B3C9EDA1"
+        android:src="@drawable/ic_jupiter"
+        app:layout_constraintBottom_toTopOf="@+id/textView_gezegen"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSaturn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSun" />
+
+    <ImageButton
+        android:id="@+id/buttonMars"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#B3C9EDA1"
+        android:src="@drawable/ic_mars"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPluton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonVenus"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonMercur"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#B3C9EDA1"
+        android:src="@drawable/ic_mercury"
+        app:layout_constraintBottom_toTopOf="@+id/buttonUranus"
+        app:layout_constraintEnd_toStartOf="@+id/buttonVenus"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonMoon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonMoon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#B3C9EDA1"
+        android:src="@drawable/ic_moon"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSaturn"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMercur"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonSun"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonNeptun"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#B3C9EDA1"
+        android:src="@drawable/ic_neptune"
+        app:layout_constraintBottom_toTopOf="@+id/textView_gezegen"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPluton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonUranus"
+        app:layout_constraintTop_toBottomOf="@+id/buttonVenus" />
+
+    <ImageButton
+        android:id="@+id/buttonSaturn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#B3C9EDA1"
+        android:src="@drawable/ic_saturn"
+        app:layout_constraintBottom_toTopOf="@+id/textView_gezegen"
+        app:layout_constraintEnd_toStartOf="@+id/buttonUranus"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonJupiter"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMoon" />
+
+    <ImageButton
+        android:id="@+id/buttonSun"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#B3C9EDA1"
+        android:src="@drawable/ic_sun"
+        app:layout_constraintBottom_toTopOf="@+id/buttonJupiter"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMoon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonUranus"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#B3C9EDA1"
+        android:src="@drawable/ic_uranus"
+        app:layout_constraintBottom_toTopOf="@+id/textView_gezegen"
+        app:layout_constraintEnd_toStartOf="@+id/buttonNeptun"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonSaturn"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMercur" />
+
+    <ImageButton
+        android:id="@+id/buttonVenus"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#B3C9EDA1"
+        android:src="@drawable/ic_venus"
+        app:layout_constraintBottom_toTopOf="@+id/buttonNeptun"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMars"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonMercur"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonPluton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#B3C9EDA1"
+        android:src="@drawable/ic_pluto"
+        app:layout_constraintBottom_toTopOf="@+id/textView_gezegen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonNeptun"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMars" />
+
+    <TextView
+        android:id="@+id/textView_gezegen"
+        android:layout_width="344dp"
+        android:layout_height="317dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="31dp"
+        android:gravity="center"
+        android:hint="Seçiniz."
+        android:scrollbars="vertical"
+        android:textColor="#DAF6DC"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

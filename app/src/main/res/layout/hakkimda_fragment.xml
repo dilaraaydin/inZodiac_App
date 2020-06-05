@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HakkimdaFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D0D5A678">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="256dp"
+            android:layout_height="29dp"
+            android:layout_marginBottom="60dp"
+            android:autoLink="email"
+            android:gravity="center"
+            android:text="aydin-dilara@hotmail.com"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#772727"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorLink="#772727"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:fontFamily="sans-serif-condensed-light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/linkTelif"
+            app:layout_constraintStart_toStartOf="@+id/linkTelif" />
+
+        <TextView
+            android:id="@+id/linkTelif"
+            android:layout_width="253dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="144dp"
+            android:autoLink="web"
+            android:gravity="center"
+            android:linksClickable="true"
+            android:text="Uygulama içindeki tüm resimler için, iconscout.com/contributors/mcgandhi61 'da Mohit Gandhi'nin sayfasına göz atın!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/ic_logo_image_background"
+            android:textColorLink="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="sans-serif-condensed-light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="251dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:gravity="center"
+            android:text="Mobil programlama dersimin ödevi için yapmaya çalıştığım bu uygulama tamamen eğlence amaçlıdır. Geliştirmeye devam edeceğim, bu yüzden yanlışlarım için beni bilgilendirirseniz çok mutlu olurum. İyi eğlenceler!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#1B5E20"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:fontFamily="sans-serif-condensed-light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="127dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="52dp"
+            android:gravity="center"
+            android:text="Merhaba!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#772727"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            app:fontFamily="sans-serif-condensed-light"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/ic_email_black_24dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView16"
+            app:layout_constraintEnd_toEndOf="@+id/textView16"
+            app:layout_constraintStart_toStartOf="@+id/textView16" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

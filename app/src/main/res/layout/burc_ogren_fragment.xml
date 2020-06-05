@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BurcOgrenFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3D5A31">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="253dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Doğduğun günü, gün/ay/yıl şeklinde aşağıya gir."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#71AC57"
+            android:textSize="20sp"
+            android:typeface="normal"
+            app:fontFamily="sans-serif-condensed-light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/editTextGun"
+            android:layout_width="83dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Gün"
+            android:inputType="number"
+            android:numeric="integer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextAy"
+            android:layout_width="83dp"
+            android:layout_height="53dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Ay"
+            android:inputType="number"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/editTextYil"
+            app:layout_constraintStart_toEndOf="@+id/editTextGun"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/editTextYil"
+            android:layout_width="83dp"
+            android:layout_height="53dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Yıl"
+            android:inputType="number"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button_hesapla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="148dp"
+            android:background="@color/background_pink_light"
+            android:text="Burcum Ne?"
+            android:textColor="#733838"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

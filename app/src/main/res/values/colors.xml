@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="color_home_background">#CCFF90</color>
+    <color name="backgroun_home2">#DD7770</color>
+    <color name="mor_background">#72B136F4</color>
+    <color name="background_pink_light">#85DD7770</color>
+</resources>

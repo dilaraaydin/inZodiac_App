@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96492121"
+    tools:context=".EvlerFragment">
+
+    <Button
+        android:id="@+id/buttonEv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/backgroun_home2"
+        android:text="11. Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Ev"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEv12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonEv10" />
+
+    <Button
+        android:id="@+id/buttonEv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroun_home2"
+        android:text="1. Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEv4"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEv2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroun_home2"
+        android:text="2. Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEv5"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEv3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonEv1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroun_home2"
+        android:text="3. Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEv6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonEv2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroun_home2"
+        android:text="4. Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEv7"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEv5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEv1" />
+
+    <Button
+        android:id="@+id/buttonEv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroun_home2"
+        android:text="5.Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEv8"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEv6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonEv4"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEv2" />
+
+    <Button
+        android:id="@+id/buttonEv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroun_home2"
+        android:text="6. Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEv9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonEv5"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEv3" />
+
+    <Button
+        android:id="@+id/buttonEv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroun_home2"
+        android:text="7. Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEv10"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEv8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEv4" />
+
+    <Button
+        android:id="@+id/buttonEv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroun_home2"
+        android:text="8. Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEv11"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEv9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonEv7"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEv5" />
+
+    <Button
+        android:id="@+id/buttonEv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroun_home2"
+        android:text="9. Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEv12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonEv8"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEv6" />
+
+    <Button
+        android:id="@+id/buttonEv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/backgroun_home2"
+        android:text="10. Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Ev"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEv11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEv12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/backgroun_home2"
+        android:text="12. Ev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#BF360C"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Ev"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonEv11" />
+
+    <TextView
+        android:id="@+id/textView_Ev"
+        android:layout_width="330dp"
+        android:layout_height="253dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:hint="Seçiniz."
+        android:scrollbars="vertical"
+        android:textColor="#FDEAEC"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
